@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(243, 148, 148, 0.7);
+}
+
+main {
+    background-color: #FFFEFE;
+    font-family: Open Sans, monospace;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h2 {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input {
+    background-color: #F5F5F5;
+}
+
+button {
+    color: #fff;
+    background-color: #089FE0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+label {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: #999;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
