@@ -7,32 +7,36 @@
 </head>
 <body>
 <main>
-    <h1>Регистрация</h1>
-    <p>Уже есть аккаунт? <a href="#">Войти</a></p>
-    <h2>Моя компания</h2>
-    <form action="#">
-        <div>
-            <div>
-                <label for="name"></label>
-                <input type="text" id="name" name="name" placeholder="Имя" required>
-            </div>
-            <div>
-                <label for="surname"></label>
-                <input type="text" id="surname" name="surname" placeholder="Фамилия" required>
-            </div>
+    <div class="container">
+        <h1>Регистрация</h1>
+        <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+        <div class="container2">
+            <h2>Моя компания</h2>
+            <form action="#">
+                <div class="container3">
+                    <div>
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder="Имя" required>
+                    </div>
+                    <div>
+                        <label for="surname"></label>
+                        <input type="text" id="surname" name="surname" placeholder="Фамилия" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div>
+                    <button type="submit">Зарегистрироваться &#10132</button>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="conditions">
+                    <label for="conditions">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+                </div>
+            </form>
         </div>
-        <div>
-            <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="E-mail" required>
-        </div>
-        <div>
-            <button type="submit">Зарегистрироваться &#10132</button>
-        </div>
-        <div>
-            <label for="conditions">Я прочитал и принимаю <a href="#">Условия использования</a></label>
-            <input type="checkbox" id="conditions">
-        </div>
-    </form>
+    </div>
 </main>
 </body>
 </html>

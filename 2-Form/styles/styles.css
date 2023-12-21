@@ -1,32 +1,58 @@
 body {
     background: linear-gradient(243deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0.00) 100%), linear-gradient(243deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0.00) 82.03%), #F39494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1024px;
 }
 
 main {
+    border-radius: 10px;
     background-color: #FFFEFE;
     font-family: Open Sans, monospace;
+    width: 582px;
+    height: 573px;
 }
 
 h1 {
     color: #333;
     font-size: 36px;
     font-weight: 700;
+    margin: 90px 0 0 170px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 p {
     color: #666;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
+    margin: 0 0 47px 178px;
 }
 
 h2 {
     color: #333;
     font-size: 16px;
     font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 22px;
+    border-radius: 5px;
+    border: 1px solid #F5F5F5;
+    background: #FFF;
 }
 
 input {
     background-color: #F5F5F5;
+    margin-bottom: 22px;
+    margin-top: 0;
+    border-radius: 5px;
+    border: none;
+
 }
 
 button {
@@ -34,6 +60,10 @@ button {
     background-color: #089FE0;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 22px;
+    margin-top: 0;
+    border-radius: 5px;
+    border: none;
 }
 
 label {
@@ -42,9 +72,37 @@ label {
     font-weight: 400;
 }
 
-::placeholder {
+*::placeholder {
     color: #999;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+}
+
+.check {
+    margin-bottom: 61px;
+    margin-top: 0;
+}
+
+.container2 {
+    width: 70%;
+    margin-left: 93px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#email, button {
+    width: 100%;
+}
+
+h2, input, button {
+    padding: 9px 11px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
 }
