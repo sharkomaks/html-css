@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 <main>
     <div class="container">
-        <h1>Регистрация</h1>
-        <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+        <div>
+            <h1>Регистрация</h1>
+            <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+        </div>
         <div class="container2">
-            <h2>Моя компания</h2>
+            <div>
+                <h2>Моя компания</h2>
+            </div>
             <form action="#">
                 <div class="container3">
                     <div>
@@ -27,8 +35,9 @@
                     <label for="email"></label>
                     <input type="email" id="email" name="email" placeholder="E-mail" required>
                 </div>
-                <div>
-                    <button type="submit">Зарегистрироваться &#10132</button>
+                <div class="buttonCheck">
+                    <img src="./images/arrow.svg" alt="фото стрелки">
+                    <button type="submit">Зарегистрироваться</button>
                 </div>
                 <div class="check">
                     <input type="checkbox" id="conditions">
