@@ -12,36 +12,38 @@
 <body>
 <main>
     <div class="container">
-        <div>
+        <div class="reg">
             <h1>Регистрация</h1>
             <p>Уже есть аккаунт? <a href="#">Войти</a></p>
         </div>
         <div class="container2">
-            <div>
+            <div class="company">
                 <h2>Моя компания</h2>
             </div>
             <form action="#">
-                <div class="container3">
-                    <div>
-                        <label for="name"></label>
-                        <input type="text" id="name" name="name" placeholder="Имя" required>
+                <div class="container4">
+                    <div class="container3">
+                        <div>
+                            <label for="name"></label>
+                            <input type="text" id="name" name="name" placeholder="Имя" required>
+                        </div>
+                        <div>
+                            <label for="surname"></label>
+                            <input type="text" id="surname" name="surname" placeholder="Фамилия" required>
+                        </div>
                     </div>
                     <div>
-                        <label for="surname"></label>
-                        <input type="text" id="surname" name="surname" placeholder="Фамилия" required>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="E-mail" required>
                     </div>
-                </div>
-                <div>
-                    <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="E-mail" required>
-                </div>
-                <div class="buttonCheck">
-                    <img src="./images/arrow.svg" alt="фото стрелки">
-                    <button type="submit">Зарегистрироваться</button>
-                </div>
-                <div class="check">
-                    <input type="checkbox" id="conditions">
-                    <label for="conditions">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+                    <div class="buttonCheck">
+                        <img src="./images/arrow.svg" alt="фото стрелки">
+                        <button type="submit">Зарегистрироваться</button>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="conditions">
+                        <label for="conditions">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+                    </div>
                 </div>
             </form>
         </div>
