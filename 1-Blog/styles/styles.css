@@ -62,7 +62,7 @@ h1 {
 .mainText {
     font-size: 20px;
     line-height: 32px;
-    margin: 69px 0 0 0;
+    margin: 0;
 }
 
 .secondText {
@@ -86,8 +86,8 @@ header ul {
     padding: 0;
 }
 
-header {
-    margin: 80px 180px;
+.nav {
+    padding: 80px 180px;
     display: flex;
     align-items: center;
 }
@@ -149,6 +149,7 @@ section {
 }
 
 .text {
+    margin: 70px 0 0 0;
     width: 708px;
 }
 
