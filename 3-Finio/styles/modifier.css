@@ -1,0 +1,18 @@
+/*Buttons*/
+
+
+.button_tariffs {
+    padding: 12px 62px;
+    background: var(--color-primary);
+    border: none;
+    border-radius: var(--border-47);
+    color: var(--color-text1);
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 140%;
+}
+
+.button_3rd {
+    color: var(--color-primary);
+    background: var(--color-text1);
+}

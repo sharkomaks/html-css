@@ -1,0 +1,32 @@
+/*Section*/
+
+.section-tariffs {
+    background: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-tariffs__wrapper {
+    max-width: 1920px;
+    padding: 80px 40px;
+}
+
+.section-tariffs__top {
+    color: var(--color-text);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0 0 24px 0;
+    text-align: center;
+}
+
+.section-tariffs__text {
+    color: var(--color-text2);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0 0 40px 0;
+    text-align: center;
+}
