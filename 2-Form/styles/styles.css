@@ -9,8 +9,6 @@ body {
 main {
     border-radius: 10px;
     background-color: #FFFEFE;
-    width: 582px;
-    height: 573px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -22,13 +20,14 @@ h1 {
 }
 
 .reg {
-    padding: 72px 0 47px;
+    margin-bottom: 47px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 90px;
 }
 
 p {
@@ -80,7 +79,7 @@ label {
 }
 
 .container2 {
-    width: 70%;
+
 }
 
 * {
@@ -112,7 +111,7 @@ h2, input, button {
 .buttonCheck img {
     position: absolute;
     top: 11px;
-    left: 348px;
+    left: 320px;
 }
 
 .company {
