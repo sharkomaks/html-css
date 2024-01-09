@@ -1,0 +1,39 @@
+:root {
+    --color-primary: #357EFE;
+    --color-bg: #FFF;
+    --color-benefit1: #1ABC9C;
+    --color-benefit2: #FFC736;
+    --color-line: rgba(78, 93, 124, 0.08);
+    --color-line1: rgba(255, 255, 255, 0.16);
+    --color-text: #000;
+    --color-text1: #FFF;
+    --color-text2: rgba(78, 93, 124, 0.5);
+    --color-text3: #4E5D7C;
+    --color-text4: rgba(255, 255, 255, 0.6);
+
+    --shadow: 0 0 32px rgba(78, 93, 124, 0.16);
+
+    --border-8: 8px;
+    --border-47: 47px;
+}
+
+body {
+    background: var(--color-bg);
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+}
+
+button {
+    font-family: Inter, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
