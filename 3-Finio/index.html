@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/tariffs.css">
-    <link rel="stylesheet" href="./styles/cards.css">
     <link rel="stylesheet" href="./styles/components.css">
+    <link rel="stylesheet" href="./styles/page.css">
+    <link rel="stylesheet" href="./styles/tariffs.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -15,5 +15,81 @@
     <title>Title</title>
 </head>
 <body>
+<section class="section tariff-plans">
+    <div class="tariff-plans__wrapper">
+        <h3 class="section__top">Тарифы</h3>
+        <p class="section__text">Все тарифы имеют полный функционал и отличаются только количеством месяцев и
+            выгодой</p>
+        <div class="tariff-cards">
+            <div class="tariff-card">
+                <div class="tariff-card__top">
+                    <div class="card-benefit benefit-invis">Выгода 0%</div>
+                    <h4 class="card-term">1 месяц</h4>
+                    <p class="card-description">Тариф подойдёт тем, кто ведёт краткосрочные проекты</p>
+                </div>
+                <div class="tariff-card__mid">
+                    <div class="card-costs costs-with-line">
+                        <div>Общая стоимость</div>
+                        <div>1 990 ₽</div>
+                    </div>
+                    <div class="card-costs costs-with-line">
+                        <div>Ваша выгода</div>
+                        <div>0 ₽</div>
+                    </div>
+                    <div class="card-costs">
+                        <div>Стоимость месяца</div>
+                        <div>1 990 ₽/мес</div>
+                    </div>
+                </div>
+                <button class="button button-primary">Бесплатно 14 дней</button>
+            </div>
+            <div class="tariff-card">
+                <div class="tariff-card__top">
+                    <div class="card-benefit">Выгода 25%</div>
+                    <h4 class="card-term">6 месяцев</h4>
+                    <p class="card-description">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт</p>
+                </div>
+                <div class="tariff-card__mid">
+                    <div class="card-costs costs-with-line">
+                        <div>Общая стоимость</div>
+                        <div>8 940 ₽</div>
+                    </div>
+                    <div class="card-costs costs-with-line">
+                        <div>Ваша выгода</div>
+                        <div class="card-cost__yellow">3 000 ₽</div>
+                    </div>
+                    <div class="card-costs">
+                        <div>Стоимость месяца</div>
+                        <div>1 490 ₽/мес</div>
+                    </div>
+                </div>
+                <button class="button button-primary">Бесплатно 14 дней</button>
+            </div>
+            <div class="tariff-card primary-tariff">
+                <div class="tariff-card__top ">
+                    <div class="card-benefit">Выгода 50%</div>
+                    <h4 class="card-term primary-tariff">12 месяцев</h4>
+                    <p class="card-description primary-tariff__description">Тариф подойдёт для тех, кто уверенно ведёт
+                        финансовый учёт и хочет сэкономить</p>
+                </div>
+                <div class="tariff-card__mid ">
+                    <div class="card-costs costs-with-line1 primary-tariff">
+                        <div>Общая стоимость</div>
+                        <div>11 880 ₽</div>
+                    </div>
+                    <div class="card-costs costs-with-line1 primary-tariff">
+                        <div>Ваша выгода</div>
+                        <div class="card-cost__yellow">12 000 ₽</div>
+                    </div>
+                    <div class="card-costs primary-tariff">
+                        <div>Стоимость месяца</div>
+                        <div>990 ₽/мес</div>
+                    </div>
+                </div>
+                <button class="button button-bg">Бесплатно 14 дней</button>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>

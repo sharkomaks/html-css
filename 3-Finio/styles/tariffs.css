@@ -1,0 +1,99 @@
+.tariff-plans__wrapper {
+    background: var(--color-bg);
+}
+
+.tariff-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));*/
+    gap: 24px;
+}
+
+.tariff-card {
+    max-width: 370px;
+    padding: 50px 40px;
+    border-radius: var(--border-8);
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tariff-card__top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.benefit-invis {
+    visibility: hidden;
+}
+
+.card-benefit {
+    color: var(--color-text1);
+    padding: 4px 16px;
+    background: var(--color-benefit1);
+    border-radius: var(--border-8);
+}
+
+.card-term {
+    color: var(--color-text);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    margin: 0;
+}
+
+.card-description {
+    color: var(--color-text2);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0;
+}
+
+.card-costs {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 60% 40%;
+    gap: 10px;
+    padding: 16px 0;
+    color: var(--color-text3);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.card-cost__yellow {
+    color: var(--color-text1);
+    background: var(--color-benefit2);
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.costs-with-line {
+    border-bottom: 1px solid var(--color-line);
+}
+
+.button-primary {
+    background: var(--color-primary);
+    color: var(--color-text1);
+}
+
+.primary-tariff {
+    background: var(--color-primary);
+    color: var(--color-text1);
+}
+
+.primary-tariff__description {
+    color: var(--color-text4);
+}
+
+.costs-with-line1 {
+    border-bottom: 1px solid var(--color-line1);
+}
+
+.button-bg {
+    color: var(--color-primary);
+    background: var(--color-bg);
+}
