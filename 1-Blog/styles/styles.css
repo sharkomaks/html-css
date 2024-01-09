@@ -86,8 +86,11 @@ header ul {
     padding: 0;
 }
 
-.nav {
+header {
     padding: 80px 180px;
+}
+
+.nav {
     display: flex;
     align-items: center;
 }
@@ -126,7 +129,6 @@ header ul {
 }
 
 .headerLinks {
-    margin-left: 80px;
     display: flex;
     gap: 50px;
 }
