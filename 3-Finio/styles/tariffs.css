@@ -16,7 +16,7 @@
     box-shadow: var(--shadow);
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .tariff-card__top {
@@ -34,6 +34,7 @@
     padding: 4px 16px;
     background: var(--color-benefit1);
     border-radius: var(--border-8);
+    align-self: flex-start;
 }
 
 .card-term {
@@ -69,6 +70,7 @@
     background: var(--color-benefit2);
     border-radius: 8px;
     padding: 8px 16px;
+    justify-self: start;
 }
 
 .costs-with-line {
