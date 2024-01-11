@@ -113,9 +113,14 @@ h2, input, button {
     width: 100%;
 }
 
-.company_name input::placeholder{
+.company_name input::placeholder {
     color: #333;
     font-size: 16px;
     font-weight: 600;
     font-style: normal;
+}
+
+.arrow-logo {
+    max-width: 24px;
+    max-height: 24px;
 }
