@@ -1,0 +1,69 @@
+/*Header*/
+
+.header__logo {
+    color: var(--color-text1);
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.header__menu {
+    padding: 0;
+    display: flex;
+    gap: 70px;
+}
+
+.header__login {
+    color: var(--color-primary);
+}
+
+/*Section*/
+
+
+.section__top {
+    color: var(--color-text);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+    margin: 0 0 24px;
+}
+
+.section__text {
+    color: var(--color-text2);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.left__top {
+    color: var(--color-text1);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.section-header__left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    max-width: 500px;
+}
+
+.firms {
+    max-width: 334px;;
+    max-height: 85px;;
+}
+
+.section-header__right {
+    max-width: 1039px;;
+    max-height: 627px;;
+}
+
+.firms img, .section-header__right img {
+    width: 100%;
+}

@@ -10,6 +10,7 @@
     --color-text2: rgba(78, 93, 124, 0.5);
     --color-text3: #4E5D7C;
     --color-text4: rgba(255, 255, 255, 0.6);
+    --color-text5: rgba(255, 255, 255, 0.8);
 
     --shadow: 0 0 32px rgba(78, 93, 124, 0.16);
 
@@ -41,8 +42,21 @@ button {
 
 a {
     text-decoration: none;
+    color: var(--color-text5);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--color-text1);
 }
 
 * {
     box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
 }
