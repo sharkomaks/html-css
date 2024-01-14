@@ -55,13 +55,14 @@
 }
 
 .firms {
-    max-width: 334px;;
-    max-height: 85px;;
+    margin-top: 40px;
+    max-width: 334px;
+    max-height: 85px;
 }
 
 .section-header__right {
-    max-width: 1039px;;
-    max-height: 627px;;
+    max-width: 1039px;
+    max-height: 627px;
 }
 
 .firms img, .section-header__right img {
