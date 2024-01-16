@@ -19,6 +19,7 @@
     margin: 0 auto;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 .section-header {
@@ -43,6 +44,7 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
+    border-bottom: 1px solid var(--color-line);
 }
 
 .section-header__top {
@@ -64,6 +66,7 @@
     display: flex;
     gap: 20px;
     max-width: 400px;
+    align-items: center;
 }
 
 .tariff-plans {
@@ -72,4 +75,136 @@
     display: flex;
     justify-content: center;
     padding: 80px 30px;
+}
+
+.main-text {
+    max-width: var(--layout--width);
+    background: var(--color-bg);
+    display: flex;
+    justify-content: center;
+    padding: 80px 30px;
+}
+
+.text-top {
+    color: var(--color-text);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.text-bottom {
+    color: var(--color-text2);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.parts-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.main-text-parts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    align-items: center;
+    padding: 80px 80px;
+    border-bottom: 1px solid var(--color-line);
+}
+
+.part1 {
+    padding-top: 0;
+}
+
+.part4 {
+    padding-bottom: 0;
+    border: none;
+}
+
+.main-text-blue {
+    background: var(--color-primary);
+    color: var(--color-text1);
+}
+
+.main-text-blue__wrapper {
+    max-width: var(--layout--width);
+    padding: 80px 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.main-text-blue-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.main-text-blue-heading {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.main-text-blue-middle {
+    color: var(--color-text5);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.lists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    padding: 0 110px;
+}
+
+.list-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
+
+.list {
+    color: var(--color-text5);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.list li {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+
+.list-excel, .list-finio {
+    padding: 0;
+}
+
+.list-excel li::before {
+    content: "";
+    background-image: url("../images/exclamation-circle.svg");
+    background-size: contain;
+    width: 24px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.list-finio li::before {
+    content: "";
+    background-image: url("../images/check-circle.svg");
+    background-size: contain;
+    width: 24px;
+    height: 25px;
+    margin-right: 10px;
 }
