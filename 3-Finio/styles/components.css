@@ -9,9 +9,10 @@
 }
 
 .header__menu {
-    padding: 0;
+    padding: 0 30px;
     display: flex;
     gap: 70px;
+    align-items: center;
 }
 
 .header__login {
