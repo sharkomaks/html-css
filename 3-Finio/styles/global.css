@@ -1,0 +1,74 @@
+:root {
+    --color-primary: #357EFE;
+    --color-bg: #FFF;
+    --color-bg-bottom: #1A1D25;
+    --color-benefit1: #1ABC9C;
+    --color-benefit2: #FFC736;
+    --color-line: rgba(78, 93, 124, 0.08);
+    --color-line1: rgba(255, 255, 255, 0.16);
+    --color-line2: rgba(255, 255, 255, 0.08);
+    --color-text: #000;
+    --color-text1: #FFF;
+    --color-text2: rgba(78, 93, 124, 0.5);
+    --color-text3: #4E5D7C;
+    --color-text4: rgba(255, 255, 255, 0.6);
+    --color-text5: rgba(255, 255, 255, 0.8);
+    --color-text6: rgba(255, 255, 255, 0.5);
+    --color-text7: rgba(255, 255, 255, 0.7);
+
+    --shadow: 0 0 32px rgba(78, 93, 124, 0.16);
+
+    --border-8: 8px;
+    --border-16: 16px;
+    --border-47: 47px;
+
+    --layout--width: 1500px;
+}
+
+body {
+    background: var(--color-bg);
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+}
+
+button {
+    padding: 12px 32px;
+    border-radius: var(--border-47);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 140%;
+    background: var(--color-bg);
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text5);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--color-text1);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
