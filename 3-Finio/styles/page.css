@@ -286,6 +286,10 @@
     color: var(--color-text1);
 }
 
+.bottom-left {
+    max-height: 531px;
+}
+
 .bottom-right {
     max-width: 450px;
     display: flex;
